@@ -1,0 +1,5 @@
+timeAtTime(x) = if ( s.rval(0) >= x ) then if ( s.rval(3) > 10) then (s.rval(3)) else (0) fi else # timeAtTime((x)) fi ;
+getCo2(x) = if ( s.rval(0) >= x ) then ( s.rval(4) ) else # getCo2((x)) fi ;
+eval parametric(E[ timeAtTime(x) ], E[ getCo2(x) ],x,0.0,1.0 ,200.0) ;
+
+trafficload(x) = if ( s.rval(0) >= x ) then if ( s.rval(3) > 10) then (s.rval(10)+s.rval(11)) else (0) fi else # trafficload((x)) fi ;

@@ -1,0 +1,15 @@
+stepsAtStep(x) = if { s.rval(1) == x } then { s.rval(1) } else # stepsAtStep({x}) fi ;
+eval parametric(E[ stepsAtStep(x) ],x,0.0,1.0,20.0) ;
+emergencyVehicleReached(x) = if ( s.rval(0) >= x ) then ( if(s.rval(13)==1)then (s.rval(12)) else (0) fi ) else # emergencyVehicleReached((x)) fi ;
+emergencyBusReached(x) = if ( s.rval(0) >= x ) then ( if(s.rval(16)==1)then (s.rval(17)) else (0) fi ) else # emergencyBusReached((x)) fi ;
+eval parametric( E[ emergencyVehicleReached(x)],E[emergencyBusReached(x) ],x,0.0,1.0 ,300.0) ;
+
+
+// ***************** traffic jam calculation *****************************//
+trafficload(x) = if ( s.rval(0) >= x ) then if ( s.rval(3) > 10) then (s.rval(10)+s.rval(11)) else (0) fi else # trafficload((x)) fi ;
+waitingTime(x) = if ( s.rval(0) >= x ) then ( s.rval(3) ) else # waitingTime((x)) fi ;
+eval parametric(E[ trafficload(x) ], E[ waitingTime(x) ],x,0.0,1.0 ,100.0) ;
+
+
+
+

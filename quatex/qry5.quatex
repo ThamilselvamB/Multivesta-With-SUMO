@@ -1,0 +1,2 @@
+CO2Emission(x) = if ( s.rval(0) >= x ) then ( s.rval(7) ) else # CO2Emission((x)) fi ;
+eval parametric(E[ CO2Emission(x) ],x,0.0,1.0 ,100.0) ;

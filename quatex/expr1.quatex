@@ -1,0 +1,4 @@
+trafficload(x) = if ( s.rval(0) >= x ) then (s.rval(15)) else # trafficload((x)) fi ;
+waitingCars(x) = if ( s.rval(0) >= x ) then (s.rval(3)) else # waitingCars((x)) fi ;
+eval parametric(E[ trafficload(x) ],E[waitingCars(x)] ,x,0.0,1.0 ,100.0) ;
+

@@ -1,0 +1,2 @@
+test(x,y) = if ( s.rval(0) >= x ) then (1) else if ( s.rval(5) < y ) then # test((x),(y)) else  (0) fi fi ;
+eval parametric( E[ test((5),(0.3)) ],x,140.0,10.0 ,200.0) ;

@@ -1,0 +1,2 @@
+emergencyVehicleReached(x) = if ( s.rval(0) >= x ) then ( if (s.rval(13) == 1 && s.rval(12) < 200 ) then (1) else (0) fi) else # emergencyVehicleReached((x)) fi ;
+eval parametric( E[ emergencyVehicleReached(x) ],x,0.0,1.0 ,400.0) ;

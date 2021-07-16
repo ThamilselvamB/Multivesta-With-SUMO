@@ -1,0 +1,2 @@
+getArrivedList(x) = if ( s.rval(0) >= x ) then ( s.rval(6) ) else # getArrivedList((x)) fi ;
+eval parametric(E[ getArrivedList(x) ],x,100.0,1.0 ,400.0) ;

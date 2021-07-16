@@ -1,0 +1,2 @@
+co2EmissionUntilSpeed(x,y) = if ( s.rval(5) > x ) then (1) else if ( s.rval(7) <= y ) then # co2EmissionUntilSpeed((x),(y)) else  (0) fi fi ;
+eval parametric(E[ co2EmissionUntilSpeed((12.1),(50)) ],k,0.0,1.0 ,200.0) ;

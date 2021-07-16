@@ -1,0 +1,2 @@
+getAvgSpeed() = if ( s.rval(2) == 1.0 ) then ( s.rval(5) ) else  (0) # getAvgSpeed() fi ;
+eval E[ getAvgSpeed() ];

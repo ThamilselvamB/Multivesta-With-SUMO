@@ -1,0 +1,2 @@
+getSpeedDeviation(x) = if ( s.rval(0) >= x ) then ( s.rval(5) ) else # getSpeedDeviation((x)) fi ;
+eval parametric(E[ getSpeedDeviation(x)],x,10.0,1.0 ,200.0) ;

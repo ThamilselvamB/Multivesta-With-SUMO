@@ -1,0 +1,2 @@
+avgTimeLossToAvgSpeed(x,y) = if ( s.rval(5) >= x ) then (1) else if ( s.rval(4) <= y ) then # avgTimeLossToAvgSpeed((x),(y)) else  (0) fi fi ;
+eval parametric(E[ avgTimeLossToAvgSpeed((x),(45)) ],x,0.0,0.1 ,20.0) ;
