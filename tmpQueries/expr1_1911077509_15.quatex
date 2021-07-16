@@ -1,0 +1,2 @@
+timeAtTime(x) = if ( s.rval(0) >= x ) then ( s.rval(0) ) else # timeAtTime((x)) fi ;stepsAtTime(x) = if ( s.rval(0) >= x ) then ( s.rval(1) ) else # stepsAtTime((x)) fi ;
+eval E[stepsAtTime({4.0})] ;
