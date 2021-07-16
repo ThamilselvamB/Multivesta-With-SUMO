@@ -1,0 +1,4 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+<e1Detector id="0" lane="4i_0" pos="450" freq="30" file="cross.out" friendlyPos="x"/>
+<laneAreaDetector file="cross.out" freq="60" friendlyPos="x" id="i1N" lane="4i_0" length="100" pos="450.61"/>
+</additional>
