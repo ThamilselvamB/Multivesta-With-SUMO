@@ -1,0 +1,97 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    
+    
+    
+    <!--  First Intersections detector details -->
+    
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T1_P1_400_0" lane="B3B2_1" length="400" pos="72"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T1_P1_400_1" lane="B3B2_2" length="400" pos="72"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T1_P1_400_2" lane="B3B2_3" length="400" pos="72"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T1_P2_400_0" lane="C2B2_1" length="400" pos="72"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T1_P2_400_1" lane="C2B2_2" length="400" pos="72"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T1_P2_400_2" lane="C2B2_3" length="400" pos="72"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T1_P3_400_0" lane="B1B2_1" length="400" pos="72"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T1_P3_400_1" lane="B1B2_2" length="400" pos="72"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T1_P3_400_2" lane="B1B2_3" length="400" pos="72"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T1_P4_400_0" lane="A2B2_1" length="400" pos="72"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T1_P4_400_1" lane="A2B2_2" length="400" pos="72"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T1_P4_400_2" lane="A2B2_3" length="400" pos="72"/>
+   
+    <!--  Second Intersections detector details -->
+    
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T2_P1_400_0" lane="C3C2_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T2_P1_400_1" lane="C3C2_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T2_P1_400_2" lane="C3C2_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T2_P2_400_0" lane="D2C2_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T2_P2_400_1" lane="D2C2_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T2_P2_400_2" lane="D2C2_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T2_P3_400_0" lane="C1C2_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T2_P3_400_1" lane="C1C2_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T2_P3_400_2" lane="C1C2_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T2_P4_400_0" lane="B2C2_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T2_P4_400_1" lane="B2C2_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T2_P4_400_2" lane="B2C2_3" length="100" pos="472"/>
+   
+   <!--  Third Intersections detector details -->
+    
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T3_P1_400_0" lane="D3D2_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T3_P1_400_1" lane="D3D2_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T3_P1_400_2" lane="D3D2_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T3_P2_400_0" lane="E2D2_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T3_P2_400_1" lane="E2D2_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T3_P2_400_2" lane="E2D2_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T3_P3_400_0" lane="D1D2_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T3_P3_400_1" lane="D1D2_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T3_P3_400_2" lane="D1D2_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T3_P4_400_0" lane="C2D2_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T3_P4_400_1" lane="C2D2_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T3_P4_400_2" lane="C2D2_3" length="100" pos="472"/>
+   
+    <!--  Fourth Intersections detector details -->
+    
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T4_P1_400_0" lane="B2B1_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T4_P1_400_1" lane="B2B1_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T4_P1_400_2" lane="B2B1_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T4_P2_400_0" lane="C1B1_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T4_P2_400_1" lane="C1B1_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T4_P2_400_2" lane="C1B1_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T4_P3_400_0" lane="B0B1_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T4_P3_400_1" lane="B0B1_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T4_P3_400_2" lane="B0B1_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T4_P4_400_0" lane="A1B1_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T4_P4_400_1" lane="A1B1_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T4_P4_400_2" lane="A1B1_3" length="100" pos="472"/>
+   
+    <!--  Fifth Intersections detector details -->
+    
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T5_P1_400_0" lane="C2C1_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T5_P1_400_1" lane="C2C1_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T5_P1_400_2" lane="C2C1_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T5_P2_400_0" lane="D1C1_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T5_P2_400_1" lane="D1C1_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T5_P2_400_2" lane="D1C1_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T5_P3_400_0" lane="C0C1_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T5_P3_400_1" lane="C0C1_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T5_P3_400_2" lane="C0C1_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T5_P4_400_0" lane="B1C1_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T5_P4_400_1" lane="B1C1_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T5_P4_400_2" lane="B1C1_3" length="100" pos="472"/>
+   
+   <!--  Sixth Intersections detector details -->
+    
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T6_P1_400_0" lane="D2D1_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T6_P1_400_1" lane="D2D1_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T6_P1_400_2" lane="D2D1_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T6_P2_400_0" lane="E1D1_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T6_P2_400_1" lane="E1D1_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T6_P2_400_2" lane="E1D1_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T6_P3_400_0" lane="D0D1_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T6_P3_400_1" lane="D0D1_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T6_P3_400_2" lane="D0D1_3" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T6_P4_400_0" lane="C1D1_1" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T6_P4_400_1" lane="C1D1_2" length="100" pos="472"/>
+    <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="T6_P4_400_2" lane="C1D1_3" length="100" pos="472"/>
+   
+   
+   
+</additional>

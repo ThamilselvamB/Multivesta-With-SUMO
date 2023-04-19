@@ -1,0 +1,51 @@
+##################################################################################          
+   INTEGRATION OF SUMO(Simulation of Urban MObility) SIMULATOR WITH MultiVeStA 
+##################################################################################
+
+@Author
+# --------------------------------------------------
+Thamilselvam B
+
+
+
+Check if SUMO is running using python code 
+Example code: https://github.com/eclipse/sumo/tree/main/tests/complex/tutorial/traci_tls
+Download multivesta.jar file from here: https://drive.google.com/file/d/1cn6vTGc-YiBfomcZR3VCLUCyVeL-Yni_/view?usp=sharing 
+Keep it into the main folder
+
+Please install these libs
+# --------------------------------------------------
+java version above 8
+pip install numpy
+pip install matplotlib
+pip install py4j
+
+
+
+
+run the following command:
+# --------------------------------------------------
+
+For ubuntu:
+java -jar multivesta.jar -c -m MV_python_integrator.py -sm true -f quatex/query.multiquatex -l 2 -sots 1 -sd vesta.python.simpy.SimPyState -vp false -bs 30 -ds [10] -a 0.05 -otherParams "python3"
+
+For Windows:
+java -jar multivesta.jar -c -m MV_python_integrator.py -sm true -f quatex\query.multiquatex -l 2 -sots 1 -sd vesta.python.simpy.SimPyState -vp false -bs 30 -ds [10] -a 0.05 -otherParams "python3"
+
+
+For image:
+# --------------------------------------------------
+For ubuntu:
+java -jar multivesta.jar -c -m MV_python_integrator.py -sm true -f quatex/query.multiquatex -l 2 -sots 1 -sd vesta.python.simpy.SimPyState -vp true -bs 30 -ds [10] -a 0.05 -otherParams "python3"
+
+For Windows:
+java -jar multivesta.jar -c -m MV_python_integrator.py -sm true -f quatex\query.multiquatex -l 2 -sots 1 -sd vesta.python.simpy.SimPyState -vp true -bs 30 -ds [10] -a 0.05 -otherParams "python3"
+
+####################################################################################
+if you find useful and use it into your work, please cite this paper
+####################################################################################
+Thamilselvam, B., Kalyanasundaram, S., Parmar, S., Panduranga Rao, M.V. (2021). Statistical Model Checking for Traffic Models. In: Campos, S., Minea, M. (eds) Formal Methods: Foundations and Applications. SBMF 2021. Lecture Notes in Computer Science(), vol 13130. Springer, Cham. https://doi.org/10.1007/978-3-030-92137-8_2
+
+
+
+For more information about MultiVeStA, please look into this paper: https://dl.acm.org/doi/10.4108/icst.valuetools.2013.254377

@@ -1,0 +1,2 @@
+getSpeed(x) = if ( s.rval("timeStep") >= x ) then (s.rval("st")) else # getSpeed((x)) fi ;
+eval parametric(E[ getSpeed(x)],x,1,1,200);
