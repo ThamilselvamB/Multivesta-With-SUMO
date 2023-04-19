@@ -11,7 +11,7 @@ Thamilselvam B
 Check if SUMO is running using python code 
 Example code: https://github.com/eclipse/sumo/tree/main/tests/complex/tutorial/traci_tls
 Download multivesta.jar file from here: https://drive.google.com/file/d/1cn6vTGc-YiBfomcZR3VCLUCyVeL-Yni_/view?usp=sharing 
-Keep it into the main folder
+Keep it into the main(MultivestaSumoPythonVersion) folder
 
 Please install these libs
 # --------------------------------------------------
