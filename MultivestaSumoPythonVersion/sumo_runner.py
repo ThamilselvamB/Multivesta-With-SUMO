@@ -65,11 +65,11 @@ class SumoSimulation:
     
 
     def set_simulator_for_new_simulation(self, random_number):
+        TrafficGenerator.generate_routefile(300,random_number)
+        time.sleep(1)
         traci.close()
         self.step = 0
         #TrafficGenerator.check()
-        TrafficGenerator.generate_routefile(300,random_number)
-        time.sleep(3)
         print("Routes are generated -----------------------", random_number)
         #sumo_cmd = self.set_sumo(False, 'sumo_grid_config.sumocfg', 3000)
         traci.start(self.sumo_cmd)
