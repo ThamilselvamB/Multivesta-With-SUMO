@@ -1,0 +1,46 @@
+
+1: Add this kind of function(any function that you want to calculate and analyse) into the sumo_runner.py
+
+
+def _collect_CO2Emission(self):
+        # ''' 'B3B2','C2B2','B1B2','A2B2' '''
+        halt_N = traci.edge.getCO2Emission("B3B2")
+        halt_S = traci.edge.getCO2Emission("C2B2")
+        halt_E = traci.edge.getCO2Emission("B1B2")
+        halt_W = traci.edge.getCO2Emission("A2B2")
+        total_CO2Emission = halt_N + halt_S + halt_E + halt_W
+        print("Total CO2Emission: ",total_CO2Emission)
+        return total_CO2Emission 
+        
+        
+        
+        
+        
+2:  Add your function into eval functions in sumo_runner.py
+
+example:
+def eval(self,obs):
+    
+        if obs=="timeStep":
+            return self.step
+            
+        if obs=="st":
+            return self._collect_waiting_times("T1")
+            
+        if obs=="co2":
+            return self._collect_CO2Emission()
+        else:
+            return 0
+            
+          
+          
+          
+          
+3: In Quatex folder add query like this(You can ask complex query)
+
+getCo2(x) = if ( s.rval("timeStep") >= x ) then (s.rval("co2")) else # getCo2((x)) fi ;
+eval parametric(E[ getCo2(x)],x,1,1,200);
+        
+        
+        
+ That's all, you can continue like this to get invloved.
