@@ -30,7 +30,7 @@ For ubuntu:
 java -jar multivesta.jar -c -m MV_python_integrator.py -sm true -f quatex/query.multiquatex -l 2 -sots 1 -sd vesta.python.simpy.SimPyState -vp false -bs 30 -ds [10] -a 0.05 -otherParams "python3"
 
 For Windows:
-java -jar multivesta.jar -c -m MV_python_integrator.py -sm true -f quatex\query.multiquatex -l 2 -sots 1 -sd vesta.python.simpy.SimPyState -vp false -bs 30 -ds [10] -a 0.05 -otherParams "python3"
+java -jar multivesta.jar -c -m MV_python_integrator.py -sm true -f quatex\query.multiquatex -l 2 -sots 1 -sd vesta.python.simpy.SimPyState -vp false -bs 30 -ds [10] -a 0.05 -otherParams "python"
 
 
 For image:
@@ -39,7 +39,7 @@ For ubuntu:
 java -jar multivesta.jar -c -m MV_python_integrator.py -sm true -f quatex/query.multiquatex -l 2 -sots 1 -sd vesta.python.simpy.SimPyState -vp true -bs 30 -ds [10] -a 0.05 -otherParams "python3"
 
 For Windows:
-java -jar multivesta.jar -c -m MV_python_integrator.py -sm true -f quatex\query.multiquatex -l 2 -sots 1 -sd vesta.python.simpy.SimPyState -vp true -bs 30 -ds [10] -a 0.05 -otherParams "python3"
+java -jar multivesta.jar -c -m MV_python_integrator.py -sm true -f quatex\query.multiquatex -l 2 -sots 1 -sd vesta.python.simpy.SimPyState -vp true -bs 30 -ds [10] -a 0.05 -otherParams "python"
 
 ####################################################################################
 if you find useful and use it into your work, please cite this paper
