@@ -1,0 +1,14 @@
+
+
+
+Step 1: Download SUMO source code from here: https://github.com/eclipse/sumo
+
+Step 2: To add new car following model, go to this website and follow the steps
+https://sumo.dlr.de/docs/Developer/How_To/Car-Following_Model.html
+
+Step 3: Build the source code after modification(Adding new car following model) by following the link
+https://sumo.dlr.de/docs/Installing/Windows_Build.html  [For Windows]
+https://sumo.dlr.de/docs/Installing/Linux_Build.html [For Linux, Ubuntu]
+
+Step 4: Once Compiled, then you can run SUMO from bin folder (Which contains new car following model)
+
