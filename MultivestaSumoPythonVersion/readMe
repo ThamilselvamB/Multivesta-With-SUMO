@@ -33,6 +33,8 @@ For Windows:
 java -jar multivesta.jar -c -m MV_python_integrator.py -sm true -f quatex\query.multiquatex -l 2 -sots 1 -sd vesta.python.simpy.SimPyState -vp false -bs 30 -ds [10] -a 0.05 -otherParams "python"
 
 
+
+
 For image:
 # --------------------------------------------------
 For ubuntu:
@@ -49,3 +51,72 @@ Thamilselvam, B., Kalyanasundaram, S., Parmar, S., Panduranga Rao, M.V. (2021). 
 
 
 For more information about MultiVeStA, please look into this paper: https://dl.acm.org/doi/10.4108/icst.valuetools.2013.254377
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################################################################################################
+                                            ABSTRACT ROAD NETWORK GENERATION
+#################################################################################################################
+
+For making new grid/spider etc road network ( https://sumo.dlr.de/docs/Networks/Abstract_Network_Generation.html)
+
+1: Go to the folder where you want to add netfile and open the command
+2: Type this cmd in the command line: 
+netgenerate --grid --grid.number=10 --grid.length=400 --output-file=MySUMOFile.net.xml -j=traffic_light -L=2
+      grid.number - number of intersections to be generated
+      grid.length - distance between the junctions in both axix (x and y axis)
+      output file - name of the net file to be created
+      -j - whether to have a traffic light or not
+      -L - number of lanes to be generated
+      
+####################################################################################################################
+                                             RANDOM ROUTE GENERATION
+####################################################################################################################
+      
+1: Go to the place where your tools folder in SUMO (Normally C:\Program Files\sumo-1.17.0\tools)
+
+2: Copy the entire tools folder into your netfile folder where the netfile exists
+
+3: Type this command to generate the random route into your network file
+   python randomTrips.py -n MySUMOFile.net.xml -e 40 -s 200
+   
+   -e - end of the simulation time
+   -s seed (random seed)
+   
+4: In folder https://github.com/ThamilselvamB/Multivesta-With-SUMO/blob/main/MultivestaSumoPythonVersion/
+
+5: Change the 68th line in sumo_runner.py
+   From ' TrafficGenerator.generate_routefile(300,random_number)'
+   
+   To
+   cmd_str = "python3 randomTrips.py -n MySUMOFile.net.xml -e 40 -s" + str(random_number)
+   os.system(cmd_str)
+   
+   
+I hope this will help to generate the random route to analyse the result.
+
+
+
+   
+   
+   
+
